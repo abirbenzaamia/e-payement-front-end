@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:mpay/QR.dart';
-import 'package:mpay/account.dart';
-import 'package:mpay/addCard.dart';
-import 'package:mpay/apropos.dart';
-import 'package:mpay/general.dart';
-import 'package:mpay/info_profil.dart';
-import 'package:mpay/password.dart';
-import 'login_page.dart';
-import 'pin_page.dart';
-import 'signup_pages.dart';
-import 'home.dart';
-import 'general.dart';
-import 'splash.dart';
+import 'screens/QR.dart';
+import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
+import 'screens/general_screen.dart';
+
+import 'screens/addCard_screen.dart';
+import 'screens/account_screen.dart';
+import 'screens/apropos_screen.dart';
+import 'screens/login_screen.dart';
+import 'screens/pin_screen.dart';
+import 'screens/password.dart';
+
+import 'screens/profile_info_screen.dart';
+import 'screens/signup_screens.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -19,12 +20,12 @@ void main() {
     initialRoute: 'splash',
     routes: {
       'splash': (context) => Splash(),
-      'pinpage': (context) => codePIN(),
+      'pinpage': (context) => CodePIN(),
       'login': (context) => Login(),
       'signup1': (context) => PersoInfo(),
       'signup2': (context) => AccountInfo(),
       'signup3': (context) => SmsValidation(),
-      'home': (context) => home(),
+      'home': (context) => Home(),
       'addCard': (context) => AddCard(),
       'general': (context) => General(),
       'account': (context) => Account(),

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "832556115172",
+    "project_id": "mpay-3a6d4",
+    "storage_bucket": "mpay-3a6d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832556115172:android:3bf9860411fcc39359f8f1",
+        "android_client_info": {
+          "package_name": "com.example.mpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832556115172-fojqvun1o7tgkn8mpen8eb5uoeb10kp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs0FfVsCFBsCE1PP6C0t9owq34I9saVMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832556115172-fojqvun1o7tgkn8mpen8eb5uoeb10kp7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832556115172-vb6vp401t4ce5hpatml6d14nudms83md.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mpay"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
